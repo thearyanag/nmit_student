@@ -1,0 +1,45 @@
+body {
+    background-color: #000000;
+    background-image: 
+    linear-gradient(#2c3e509b,#000000ac),
+    url('/img/campus.png');
+    background-size: cover;
+}
+
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: lightcyan;
+}
+
+.navbar li a {
+    color: white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.jumbotron {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.vertical-center {
+    min-height: 85%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 85vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron h5 {
+    font-size: large;
+}
+
+.jumbotron h1 {
+    font-size: 5em;
+}
